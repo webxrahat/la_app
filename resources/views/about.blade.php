@@ -26,7 +26,7 @@
     </aside>
 
     <main style="height: 70vh">
-        <h1>Page Title</h1>
+        <h1>About Page</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, distinctio?</p>
     </main>
 
