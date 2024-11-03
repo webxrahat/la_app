@@ -1,1 +1,3 @@
-<h1>This coming from footer</h1>
+<footer>
+    <p>This is the footer</p>
+</footer>

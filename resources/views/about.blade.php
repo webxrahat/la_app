@@ -8,31 +8,16 @@
    
 </head>
 <body>
-    <header>
-        <h1>Header Menu</h1>
-    </header>
+   @include('pages.header')
 
-    <nav id="menu-bar">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/post">Post</a></li>
-        </ul>
-    </nav>
-
-    <aside id="sidebar">
-        <h2>Sidebar</h2>
-        <p>This is the sidebar content.</p>
-    </aside>
+  @include('pages.sidebar')
 
     <main style="height: 70vh">
-        <h1>About Page</h1>
+        <h1>About page Title</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, distinctio?</p>
     </main>
 
-    <footer>
-        <p>This is the footer</p>
-    </footer>
+    @include('pages.footer')
   
 </body>
 </html>
